@@ -61,4 +61,4 @@ The already processed dataset can be downloaded from [this Onedrive folder](http
 
 ## Multimodal-SubKITTI dataset
 
-To deal with the out-of-distribution problem, I removed pedestrians and cyclists from semantic-kitti to get a subset dataset of KITTI. It can be downloaded from [this OneDrive folder]((https://nusu-my.sharepoint.com/:f:/r/personal/e1011066_u_nus_edu/Documents/KITTI?csf=1&web=1&e=8T5OUG))
+To deal with the out-of-distribution problem, I removed pedestrians and cyclists from semantic-kitti to get a subset dataset of KITTI. It can be downloaded from [this OneDrive folder](https://nusu-my.sharepoint.com/:f:/r/personal/e1011066_u_nus_edu/Documents/KITTI?csf=1&web=1&e=8T5OUG)

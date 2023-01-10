@@ -57,4 +57,8 @@ You can modify the corresponding file in config with different naming. It is wor
 
 ## Foggy-KITTI dataset
 
-The already processed dataset can be downloaded from [this Onedrive folder](https://nusu-my.sharepoint.com/:f:/r/personal/e1011066_u_nus_edu/Documents/KITTI?csf=1&web=1&e=8T5OUG)
+The already processed dataset can be downloaded from [this Onedrive folder](https://nusu-my.sharepoint.com/:f:/r/personal/e1011066_u_nus_edu/Documents/Foggy-KITTI?csf=1&web=1&e=hQbVjW), The processed dataset can be downloaded from here, corresponding to KITTI's sequence 8. Label files can be downloaded from KITTI's official website
+
+## Multimodal-SubKITTI dataset0
+
+To deal with the out-of-distribution problem, I removed pedestrians and cyclists from semantic-kitti to get a subset dataset of KITTI. It can be downloaded from [this OneDrive folder]((https://nusu-my.sharepoint.com/:f:/r/personal/e1011066_u_nus_edu/Documents/KITTI?csf=1&web=1&e=8T5OUG))

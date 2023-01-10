@@ -53,3 +53,8 @@ The dataset should be pre-prepared in KITTI or NuScenes format before it is proc
 	    └── ...
 ```
 You can modify the corresponding file in config with different naming. It is worth mentioning that KITTI's 11-21 does not really need to be used here due to the large number of samples, but it is necessary to create a corresponding folder and store at least one sample.
+
+
+## Foggy-KITTI dataset
+
+The already processed dataset can be downloaded from [this Onedrive folder](https://nusu-my.sharepoint.com/:f:/r/personal/e1011066_u_nus_edu/Documents/KITTI?csf=1&web=1&e=8T5OUG)

@@ -4,6 +4,12 @@ This is to detect foggy images and point clouds based on 2DPASS. The basic insta
 
 
 ## Fogify tools
+### Installation
+
+Multiprocessing module is an extra python libaray needed to be installed. You can run the following to install.
+```shell script 
+pip install multiprocessing
+```
 
 
 ### Depth completion

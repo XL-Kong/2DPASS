@@ -27,6 +27,7 @@ cd <root dir of fogify_util>
 python .\Lidar_foggy --root path to root folder --beta 0.005 --sensor_type VelodyneHDLS3D
 ```
 The dataset should be pre-prepared in KITTI or NuScenes format before it is processed. The data after fogification should be as shown below (in KITTI format).
+```
 ./dataset/
 ├── 
 ├── ...
@@ -51,4 +52,4 @@ The dataset should be pre-prepared in KITTI or NuScenes format before it is proc
         └── 21/
 	    └── ...
 ```
-You can modify the corresponding file in config with different naming
+You can modify the corresponding file in config with different naming. It is worth mentioning that KITTI's 11-21 does not really need to be used here due to the large number of samples, but it is necessary to create a corresponding folder and store at least one sample.

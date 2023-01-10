@@ -6,14 +6,23 @@ This is to detect foggy images and point clouds based on 2DPASS. The basic insta
 ## Fogify tools
 
 
-### depth completion
+### Depth completion
 You can run the depth completion with
 ```shell script
 cd <root dir of fogify_util>
 python depth_completion.py --rgb the root of rgb image path --d the root of original depth image path --a the root of output path
 ```
 
-### image fogification
-
+### Image fogification
+You can run the depth completion with
+```shell script
+cd <root dir of fogify_util>
+python .\image_foggy --root path to root folder --beta 0.00016 
+```
 
 ### Lidar fogification
+You can run the depth completion with
+```shell script
+cd <root dir of fogify_util>
+python .\Lidar_foggy --root path to root folder --beta 0.005 --sensor_type VelodyneHDLS3D
+```
